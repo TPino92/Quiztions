@@ -16,15 +16,15 @@ body {
     color: var(--color-primary);
     background: var(--color-primary);
 }
-  
+
 body.correct {
     background-color: green;
 }
-  
+
 body.wrong {
     background-color: red;
 }
-  
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -33,7 +33,7 @@ body.wrong {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
 }
-  
+
 #question {
     font: 30px bold;
     color: black;
@@ -54,32 +54,32 @@ body.wrong {
     color: white;
     outline: none;
 }
-  
+
 .btn:hover {
     border-color: black;
 }
-  
+
 .btn.correct {
     background-color: green;
     color: black;
 }
-  
+
 .btn.wrong {
     background-color: red;
 }
-  
+
 .start-btn, .next-btn {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
 }
-  
+
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  
+
 .hide {
     display: none;
 }
