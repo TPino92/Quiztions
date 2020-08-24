@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <div id="question-container" class="hide">
-      <div id="countdown">60</div>
+      <div id="countdown"></div>
       <div id="question">Question</div>
       <div id="answer-buttons" class="btn-grid">
         <button class="btn">Answer 1</button>
@@ -19,6 +19,25 @@
         <button class="btn">Answer 4</button>
       </div>
     </div>
+
+    <div id="score-card" class="score-card hide">
+      <h3>Score Card!</h3>
+      <div id="new-highscore" class="new-highscore">
+        <form> 
+          <input id="new-name"
+          type="text"
+          name="name"
+        />
+        </form>
+      </div>
+      <button id="sign-up-btn" class="sign-up-btn btn">Add Name</button>  
+      <div class="card">
+        <h4>Last Registered Highscore:</h4>
+        <p><strong>Highscore:</strong> <span id="highscore"></span></p>
+        <p><strong>Name:</strong> <span id="name"></span></p>
+      </div>
+    </div>
+
     <div class="controls">
       <button id="start-btn" class="start-btn btn">Start</button>
       <button id="next-btn" class="next-btn btn hide">Next</button>

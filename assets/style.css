@@ -39,6 +39,10 @@ body.wrong {
     color: black;
 }
 
+.score-card {
+    font: 30px bold;
+    color: black;
+}
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
